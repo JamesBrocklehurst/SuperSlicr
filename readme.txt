@@ -1,29 +1,53 @@
-SuperSlicr Photoshop Action v.1.0 by James Brocklehurst
-http://www.mightymeta.co.uk/superslicr-ditch-the-slice-tool/
-Copyright (c) 2011/12, MightyMeta.
+SuperSlicr Photoshop Action v.2.0 by James Brocklehurst
+http://www.mightymeta.co.uk/superslicr-v2/
+Copyright (c) 2011-13, MightyMeta.
 All rights reserved.
 
-** Installation **
 
-Choose 'Load Actions' from the Actions Palette Contextual Menu.
+-- Installation --
 
-** Usage **
+Drag and drop the superslicr2.atn file onto your Photoshop application icon.
 
-1) Select which export setting you would like from the Actions Palette, either JPEG (High), PNG-24 Standard, or PNG-24 iOS Scaling.
+If this does not work, choose 'Load Actions' from the Actions Palette Contextual Menu and browse for the file.
 
-2) Select any combination of Layers that you wish to merge into a single 'slice'
 
-3) 'Play' the Action or use the Keyboard Shortcut
+-- Usage --
 
-** Results **
+(1) Either select the layers or create a rectangular marque for the image that you wish to export
+(2) Select the relevant export option (see below) from the SuperSlicr actions in the actions palette.
+(3) Run the action.
+(4) Check the export settings.
+(5) Name and save the image in the usual way.
 
-All export setting will create a new document of your selected layers, cropped to the combined pixel bounds, and then bring up the appropriate settings in the 'Save for Web' dialogue.
 
-- 'JPEG (High)' will flatten the selected layers against your current background colour.
-- 'PNG-24 Standard' will merge your selected layers and place them against a transparent background.
-- 'PNG-24 iOS Scaling' will do the same as 'Standard' except it will generate both a Standard Display and Retina Display version. It is important to note that the action assumes that the original file has been created to Retina Display dimensions, as it performs a scale-down rather than scale-up.
+-- Options --
 
-** ChangeLog **
+- Layers to 'JPEG (High)' will trim the selected layers to their pixel bounds and flatten them against your current background colour.
+
+- Layers to 'PNG-24 Standard' will trim the selected layers to their pixel bounds and place them against a transparent background.
+
+- Layers to 'PNG-24 iOS Scaling' will do the same as 'Standard' except it will generate both a standard and 'Retina' version of the image.*
+
+- Selection to 'JPEG (High)' will crop to the selected area and flatten the results against your current background colour.
+
+- Selection to 'PNG-24 Standard' will crop to the selected area and place the results against a transparent background.
+
+- Selection to 'PNG-24 iOS Scaling' will do the same as 'Standard' except it will generate both a standard and 'Retina' version of the image.*
+
+* It is important to note that the action assumes that the original file has been created to Retina proportions, as it performs a scale-down rather than scale-up.
+
+
+-- ChangeLog --
+
+v2.0 16/09/2013
+
+- Added ability to export from Rectangular Marque Selection.
+- Generated image documents are now closed automatically after image has been saved.
+- Reduction in number of steps needed to perform action. 
+
+v1.1 29/07/2012
+
+- updated URL to associated blog post in readme.txt
 
 v1.0 24/10/2011
 
@@ -44,7 +68,7 @@ v0.5 04/05/2010
 - First publicly available version of Action.
 
 
-** Licence **
+-- Licence --
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
