@@ -39,6 +39,10 @@ If this does not work, choose 'Load Actions' from the Actions Palette Contextual
 
 -- ChangeLog --
 
+v2.0.1 20/10/2013
+
+- Fixed bug that prevented PNG transparency.
+
 v2.0 16/09/2013
 
 - Added ability to export from Rectangular Marque Selection.
